@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Instagram, Calendar, MessageCircle, Heart, Send } from 'lucide-react';
+import { Phone, Instagram, Calendar, Heart } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const contactMethods = [

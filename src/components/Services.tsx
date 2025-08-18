@@ -1,5 +1,5 @@
 import React from 'react';
-import { Monitor, Clock, Shield, CheckCircle, Star, Calendar } from 'lucide-react';
+import { Monitor, Clock, Shield, CheckCircle, Calendar } from 'lucide-react';
 
 const Services: React.FC = () => {
   const benefits = [
