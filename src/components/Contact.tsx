@@ -5,7 +5,13 @@ import { Phone, Instagram, Heart, Calendar } from 'lucide-react';
 const Contact: React.FC = () => {
 
   return (
-    <section id="contato" className="py-20 bg-white relative">
+    <section 
+      id="contato" 
+      className="py-20 bg-white relative"
+      style={{ 
+        paddingTop: window.innerWidth < 800 ? '2.5rem' : '5rem', 
+        paddingBottom: window.innerWidth < 800 ? '2.5rem' : '5rem' 
+      }}>
       <div className="container-max section-padding">
         {/* Header */}
         <div className="text-center mb-8">

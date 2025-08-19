@@ -34,7 +34,7 @@ const Services: React.FC = () => {
   ];
 
   return (
-    <section id="servicos" className="py-20 bg-cream-50 relative">
+    <section id="servicos" className="py-10 bg-cream-50 relative">
       <div className="container-max section-padding">
         {/* Header */}
         <div className="text-center mb-15">
