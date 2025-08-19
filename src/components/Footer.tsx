@@ -14,10 +14,10 @@ const Footer: React.FC = () => {
               Matheus Rocha
             </h3>
             <p className="text-cream-200">
-              Psicólogo especialista em Terapia Cognitivo-Comportamental
+              Psicólogo Comportamental / Online 
             </p>
             <p className="text-cream-300 text-sm">
-              CRP XX/XXXXX
+              CRP 06/198604
             </p>
           </div>
 
@@ -74,11 +74,6 @@ const Footer: React.FC = () => {
                 <Instagram size={18} />
                 <span>@psicomrocha</span>
               </a>
-              
-              <div className="flex items-center gap-3 text-cream-300">
-                <Mail size={18} />
-                <span>Atendimento online</span>
-              </div>
             </div>
           </div>
         </div>

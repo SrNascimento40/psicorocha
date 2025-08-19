@@ -1,43 +1,18 @@
 import React from 'react';
-import { Phone, Instagram, Calendar, Heart } from 'lucide-react';
+import { Phone, Instagram, Heart, Calendar } from 'lucide-react';
+
 
 const Contact: React.FC = () => {
-  const contactMethods = [
-    {
-      icon: <Calendar className="w-8 h-8" />,
-      title: "Agendar pelo Link",
-      description: "Entre no link do meu perfil e clique em agendar",
-      action: "Acessar Perfil",
-      href: "https://instagram.com/psicomrocha",
-      color: "bg-purple-500 hover:bg-purple-600"
-    },
-    {
-      icon: <Phone className="w-8 h-8" />,
-      title: "WhatsApp",
-      description: "Entre em contato comigo pelo WhatsApp no número",
-      action: "(12) 99239-9676",
-      href: "https://wa.me/5512992399676",
-      color: "bg-green-500 hover:bg-green-600"
-    },
-    {
-      icon: <Instagram className="w-8 h-8" />,
-      title: "Direct Message",
-      description: "Entre em contato pela DM de qualquer um dos meus perfis",
-      action: "@psicomrocha",
-      href: "https://instagram.com/psicomrocha",
-      color: "bg-pink-500 hover:bg-pink-600"
-    }
-  ];
 
   return (
     <section id="contato" className="py-20 bg-white relative">
       <div className="container-max section-padding">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-warm-900 mb-6">
             Como <span className="text-gradient">Agendar?</span>
           </h2>
-          <p className="text-xl text-warm-700 max-w-2xl mx-auto mb-8">
+          <p className="text-xl text-warm-700 max-w-2xl mx-auto mb-12">
             Se <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded">INTERESSOU</span> pelo 
             meu trabalho e quer <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded">AGENDAR</span> uma 
             sessão comigo mas não sabe como?
@@ -48,39 +23,24 @@ const Contact: React.FC = () => {
         </div>
 
         {/* Contact Methods */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold text-warm-900 text-center mb-8">
-            Existem <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded">TRÊS</span> formas:
-          </h3>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            {contactMethods.map((method, index) => (
-              <div
-                key={index}
-                className="bg-cream-50 p-8 rounded-2xl card-hover border border-cream-200 text-center"
-              >
-                <div className="text-warm-600 mb-6 flex justify-center">
-                  {method.icon}
-                </div>
-                
-                <h4 className="text-xl font-bold text-warm-900 mb-4">
-                  {method.title}
-                </h4>
-                
-                <p className="text-warm-700 mb-6 leading-relaxed">
-                  {method.description}
-                </p>
-                
-                <a
-                  href={method.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`${method.color} text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-block`}
-                >
-                  {method.action}
-                </a>
-              </div>
-            ))}
+        <div className="mb-16 flex justify-center">
+          <div className="bg-white p-8 rounded-2xl shadow-xl max-w-2xl text-center">
+            <Calendar className="w-12 h-12 text-warm-600 mx-auto mb-4" />
+            <h3 className="text-2xl font-bold text-warm-900 mb-4">
+              Pronto para começar sua jornada?
+            </h3>
+            <p className="text-warm-700 mb-6">
+              Agende sua primeira sessão e descubra como a terapia online pode transformar sua vida.
+            </p>
+            <a
+              href="https://wa.me/5512992399676"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary inline-flex items-center gap-2 justify-center"
+            >
+              <Calendar size={20} />
+              Agendar Primeira Sessão
+            </a>
           </div>
         </div>
 
@@ -94,7 +54,7 @@ const Contact: React.FC = () => {
 
           
           <div className="text-2xl font-bold mb-6">
-            @PSICOMROCHA
+            @psicomrocha
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -112,7 +72,7 @@ const Contact: React.FC = () => {
               href="https://instagram.com/psicomrocha"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-pink-500 hover:bg-pink-600 text-white px-8 py-4 rounded-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
+              className="bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 text-white px-8 py-4 rounded-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
             >
               <Instagram size={20} />
               Seguir no Instagram

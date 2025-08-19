@@ -1,5 +1,5 @@
 import React from 'react';
-import { Monitor, Clock, Shield, CheckCircle, Calendar } from 'lucide-react';
+import { Monitor, Clock, Shield, CheckCircle } from 'lucide-react';
 
 const Services: React.FC = () => {
   const benefits = [
@@ -37,8 +37,8 @@ const Services: React.FC = () => {
     <section id="servicos" className="py-20 bg-cream-50 relative">
       <div className="container-max section-padding">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-warm-900 mb-6">
+        <div className="text-center mb-15">
+          <h2 className="text-3xl md:text-4xl font-display font-bold text-warm-900 mb-8">
             A <span className="text-gradient">Terapia Online</span> se tornou cada vez mais popular com o passar dos anos
           </h2>
           <p className="text-xl text-warm-700 max-w-3xl mx-auto">
@@ -65,10 +65,10 @@ const Services: React.FC = () => {
                   UMA REVISÃO DE 2021 PUBLICADA NA REVISTA BRASILEIRA DE TERAPIAS COGNITIVAS MOSTROU:
                 </h4>
                 <p className="text-warm-700 leading-relaxed">
-                  A terapia feita pela internet funciona muito bem em problemas como 
-                  <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded mx-1">ansiedade</span>,
-                  <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded mx-1">depressão</span> e até mesmo a 
-                  sensação de <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded mx-1">solidão</span>
+                  A terapia feita pela internet funciona muito bem em problemas como sensação de 
+                  <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded mx-1">solidão</span>,
+                  <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded mx-1">ansiedade</span> e até mesmo a 
+                  <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded mx-1">depressão</span>
                 </p>
               </div>
             </div>
@@ -125,28 +125,6 @@ const Services: React.FC = () => {
                 </span>
               ))}
             </div>
-          </div>
-        </div>
-
-        {/* CTA Section */}
-        <div className="text-center mt-16">
-          <div className="bg-white p-8 rounded-2xl shadow-xl max-w-2xl mx-auto">
-            <Calendar className="w-12 h-12 text-warm-600 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-warm-900 mb-4">
-              Pronto para começar sua jornada?
-            </h3>
-            <p className="text-warm-700 mb-6">
-              Agende sua primeira sessão e descubra como a terapia online pode transformar sua vida.
-            </p>
-            <a
-              href="https://wa.me/5512992399676"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary inline-flex items-center gap-2"
-            >
-              <Calendar size={20} />
-              Agendar Primeira Sessão
-            </a>
           </div>
         </div>
       </div>

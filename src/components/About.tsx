@@ -28,7 +28,7 @@ const About: React.FC = () => {
   return (
     <section id="sobre" className="py-20 bg-white relative">
       <div className="container-max section-padding">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-16 ">
           {/* Content */}
           <div className="space-y-8">
             <div className="space-y-4">
@@ -43,14 +43,20 @@ const About: React.FC = () => {
                   <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded mx-1">"AQUI E AGORA"</span>
                 </p>
 
-                <div className="bg-cream-100 p-6 rounded-xl">
-                  <p className="font-medium text-warm-800">
-                    Para melhor visualização: Nossos pensamentos influenciam nossas emoções e comportamento
-                  </p>
-                </div>
-
+                <p className="font-medium text-warm-800">
+                  Para melhor visualização: 
+                </p>
+                <img 
+                  src="/images/fluxo.png" 
+                  alt="ideograma sobre Terapia Cognitivo-Comportamental"
+                  style={{ 
+                  width: '60%', 
+                  filter: 'invert(16%) sepia(25%) saturate(500%) hue-rotate(10deg) brightness(90%) contrast(85%)' 
+                  }}
+                />
                 <p>
-                  Dessa forma, como agimos pode afetar diretamente NOSSOS PADRÕES DE PENSAMENTOS E EMOÇÕES
+                  Dessa forma, como agimos pode afetar diretamente <br></br>
+                  <span style={{ color: "rgb(109, 83, 71)", fontWeight: 600 }}>NOSSOS PADRÕES DE PENSAMENTOS E EMOÇÕES</span>
                 </p>
               </div>
             </div>
@@ -82,9 +88,9 @@ const About: React.FC = () => {
               <h3 className="text-xl font-bold mb-4">
                 Buscando entender e modificar os padrões de pensamento e comportamentos
               </h3>
-              <p className="text-lg font-medium bg-warm-800 px-4 py-2 rounded-lg inline-block">
-                DISFUNCIONAIS
-              </p>
+              <div className="w-100 flex">
+                <p className="text-lg font-medium bg-warm-800 px-4 py-2 rounded-lg inline-block">DISFUNCIONAIS</p>
+              </div>
               <p className="mt-4 opacity-90">
                 Realizando dessa forma um trabalho colaborativo que desenvolva um estilo mais saudável e funcional de pensamento e habilidades de enfrentamento.
               </p>
