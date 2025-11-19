@@ -54,7 +54,7 @@ const About: React.FC = () => {
         Para melhor visualização: 
         </p>
         <img 
-        src="/images/fluxo.png" 
+        src="/images/fluxo.webp" 
         alt="ideograma sobre Terapia Cognitivo-Comportamental"
         className="mx-auto"
         style={{ 
