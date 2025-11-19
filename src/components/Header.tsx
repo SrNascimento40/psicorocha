@@ -41,7 +41,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-2xl lg:text-3xl font-display font-bold text-gradient">
+            <h1 className="text-2xl lg:text-3xl font-display font-bold text-gradient" style={{ background: 'linear-gradient(to right, #866553, #b5967d)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
               Matheus Rocha
             </h1>
             <span className="ml-2 text-sm text-warm-600 font-medium">

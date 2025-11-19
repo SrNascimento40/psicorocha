@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-display font-bold text-gradient">
+            <h3 className="text-2xl font-display font-bold text-gradient" style={{ background: 'linear-gradient(to right, #866553, #b5967d)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
               Matheus Rocha
             </h3>
             <p className="text-cream-200">
