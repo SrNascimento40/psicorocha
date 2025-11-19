@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-warm-900 mb-6">
-            Como <span className="text-gradient">Agendar?</span>
+            Como <span className="text-gradient" style={{ background: 'linear-gradient(to right, #866553, #b5967d)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Agendar?</span>
           </h2>
           <p className="text-xl text-warm-700 max-w-2xl mx-auto mb-12">
             Se <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded">INTERESSOU</span> pelo 

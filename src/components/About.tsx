@@ -41,7 +41,14 @@ const About: React.FC = () => {
       <div className="space-y-4">
         <h2 className="text-3xl md:text-4xl font-display font-bold text-warm-900">
         O que é a
-        <span className="block text-gradient">Terapia Cognitivo-Comportamental?</span>
+        <span 
+          className="block text-gradient" 
+          style={{ 
+            color: '#94735f' 
+          }}
+        >
+          Terapia Cognitivo-Comportamental?
+        </span>
         </h2>
         
         <div className="space-y-6 text-warm-700 leading-relaxed">
@@ -59,7 +66,9 @@ const About: React.FC = () => {
         className="mx-auto"
         style={{ 
         width: '60%', 
-        filter: 'invert(16%) sepia(25%) saturate(500%) hue-rotate(10deg) brightness(90%) contrast(85%)' 
+        filter: getComputedStyle(document.documentElement).backgroundColor === 'rgb(31, 31, 31)' 
+          ? 'invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%)' 
+          : 'invert(16%) sepia(25%) saturate(500%) hue-rotate(10deg) brightness(90%) contrast(85%)' 
         }}
         />
         <p>

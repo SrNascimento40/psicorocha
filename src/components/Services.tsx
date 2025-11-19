@@ -39,7 +39,7 @@ const Services: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-15">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-warm-900 mb-8">
-            A <span className="text-gradient">Terapia Online</span> se tornou cada vez mais popular com o passar dos anos
+            A <span className="text-gradient" style={{ color: '#94735f' }}>Terapia Online</span> se tornou cada vez mais popular com o passar dos anos
           </h2>
           <p className="text-xl text-warm-700 max-w-3xl mx-auto">
             Mas muita gente ainda se pergunta: será que ela é realmente 

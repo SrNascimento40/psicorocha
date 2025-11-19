@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-warm-900 leading-tight">
                 Olá, eu sou
-                <span className="block text-gradient">Matheus Rocha</span>
+                <span className="block text-gradient" style={{ background: 'linear-gradient(to right, #866553, #b5967d)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Matheus Rocha</span>
               </h1>
               <p className="text-xl md:text-2xl text-warm-700 font-medium">
                 Psicólogo Comportamental / Online
