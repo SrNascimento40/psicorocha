@@ -70,6 +70,8 @@ const Hero: React.FC = () => {
               <div className="relative overflow-hidden rounded-2xl shadow-2xl bg-gradient-to-br from-warm-200 to-cream-200 aspect-[4/5] max-w-md mx-auto">
                 {/* Professional photo of Matheus Rocha */}
                 <img 
+                  fetchPriority="high"
+                  decoding="async"                
                   src="/images/rocha-pic.webp" 
                   alt="Matheus Rocha - Psicólogo especialista em Terapia Cognitivo-Comportamental"
                   className="w-full h-full object-cover"
