@@ -4,22 +4,22 @@ import { Brain, Heart, Target, Users } from 'lucide-react';
 const About: React.FC = () => {
   const features = [
     {
-      icon: <Brain className="w-8 h-8" />,
+      icon: <Brain className="w-8 h-8 mx-auto" />,
       title: "Pensamentos",
       description: "Identificamos padrões de pensamento disfuncionais"
     },
     {
-      icon: <Heart className="w-8 h-8" />,
+      icon: <Heart className="w-8 h-8 mx-auto" />,
       title: "Emoções", 
       description: "Compreendemos como as emoções influenciam nosso comportamento"
     },
     {
-      icon: <Target className="w-8 h-8" />,
+      icon: <Target className="w-8 h-8 mx-auto" />,
       title: "Comportamentos",
       description: "Desenvolvemos estratégias mais funcionais e saudáveis"
     },
     {
-      icon: <Users className="w-8 h-8" />,
+      icon: <Users className="w-8 h-8 mx-auto" />,
       title: "Colaborativo",
       description: "Trabalho em equipe entre terapeuta e paciente"
     }
