@@ -108,7 +108,7 @@ const Services: React.FC = () => {
           </div>
 
           <p className="text-lg mb-8 opacity-90">
-            Estudos também afirmam ainda que a terapia cognitiva online possui resultados comprovados em diversos tipos de fenômenos, população e contexto
+            Estudos também afirmam que a terapia cognitiva online possui resultados comprovados em diversos tipos de fenômenos, população e contexto
           </p>
 
           <div className="bg-warm-800 rounded-xl p-6">

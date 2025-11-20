@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
           <p className="text-xl text-warm-700 max-w-2xl mx-auto mb-12">
             Se <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded">INTERESSOU</span> pelo 
             meu trabalho e quer <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded">AGENDAR</span> uma 
-            sessão comigo mas não sabe como?
+            sessão comigo, mas não sabe como?
           </p>
           <div className="text-2xl font-bold text-warm-900">
             DEIXA COMIGO!

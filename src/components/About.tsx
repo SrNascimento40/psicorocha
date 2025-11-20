@@ -54,7 +54,7 @@ const About: React.FC = () => {
         <div className="space-y-6 text-warm-700 leading-relaxed">
         <p className="text-lg">
         Ela é uma abordagem de psicoterapia que tem como foco o 
-        <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded mx-1">"AQUI E AGORA"</span>
+        <span className="bg-warm-800 text-cream-50 px-2 py-1 rounded mx-1"> "AQUI E AGORA"</span>
         </p>
 
         <p className="font-medium text-warm-800">
@@ -62,7 +62,7 @@ const About: React.FC = () => {
         </p>
         <img 
         src="/images/fluxo.webp" 
-        alt="ideograma sobre Terapia Cognitivo-Comportamental"
+        alt="Ideograma sobre Terapia Cognitivo-Comportamental"
         className="mx-auto"
         style={{ 
         width: '60%', 

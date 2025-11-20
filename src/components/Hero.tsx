@@ -28,14 +28,14 @@ const Hero: React.FC = () => {
 
             <div className="space-y-6">
               <p className="text-lg text-warm-600 leading-relaxed">
-                Trabalho com uma abordagem colaborativa, focando no <strong>"aqui e agora"</strong> 
+                Trabalho com uma abordagem colaborativa, focando no <strong>"aqui e agora" </strong> 
                 para ajudar você a identificar e desenvolver padrões de pensamento e comportamentos 
                 mais funcionais e saudáveis.
               </p>
 
               <div className="bg-cream-100 p-6 rounded-xl border-l-4 border-warm-500">
                 <p className="text-warm-800 font-medium">
-                  "A Teriapia é um convite de mergulho no autoconhecimento, consequentemente, na transformação."
+                  "A Terapia é um convite de mergulho no autoconhecimento, consequentemente, na transformação."
                 </p>
               </div>
             </div>
